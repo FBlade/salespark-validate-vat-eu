@@ -9,7 +9,7 @@ No dependencies beyond `fast-xml-parser` and native Node.js HTTPS. Fully typed, 
 ## 📦 Installation
 
 ```bash
-yarn @salespark/add validate-vat-eu
+yarn add @salespark/validate-vat-eu
 
 # or
 
