@@ -1,0 +1,20 @@
+{
+  "name": "@salespark/validate-vat-eu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test:local": "ts-node ./test/index.ts"
+  },
+  "author": "SalesPark",
+  "license": "MIT",
+  "homepage": "https://salespark.io",
+  "devDependencies": {
+    "@types/node": "^24.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}
