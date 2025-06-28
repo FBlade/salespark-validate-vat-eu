@@ -25,33 +25,33 @@ const soapTemplate = `<?xml version="1.0" encoding="UTF-8"?>
   </soap:Envelope>`;
 
 const EU_COUNTRIES = [
-  "AT",
-  "BE",
-  "BG",
-  "CY",
-  "CZ",
-  "DE",
-  "DK",
-  "EE",
-  "EL",
-  "ES",
-  "FI",
-  "FR",
-  "HR",
-  "HU",
-  "IE",
-  "IT",
-  "LT",
-  "LU",
-  "LV",
-  "MT",
-  "NL",
-  "PL",
-  "PT",
-  "RO",
-  "SE",
-  "SI",
-  "SK",
+  "AT", // Áustria
+  "BE", // Bélgica
+  "BG", // Bulgária
+  "HR", // Croácia
+  "CY", // Chipre
+  "CZ", // Chéquia
+  "DK", // Dinamarca
+  "EE", // Estónia
+  "FI", // Finlândia
+  "FR", // França
+  "DE", // Alemanha
+  "GR", // Grécia (corrigido)
+  "HU", // Hungria
+  "IE", // Irlanda
+  "IT", // Itália
+  "LV", // Letónia
+  "LT", // Lituânia
+  "LU", // Luxemburgo
+  "MT", // Malta
+  "NL", // Países Baixos
+  "PL", // Polónia
+  "PT", // Portugal
+  "RO", // Roménia
+  "SK", // Eslováquia
+  "SI", // Eslovénia
+  "ES", // Espanha
+  "SE", // Suécia
 ];
 
 export interface VatCheckResult {

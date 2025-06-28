@@ -97,13 +97,9 @@ validateVatEU("PT", "502011378"); // Should return valid: true
 
 ### 🛠 Built With
 
-```markdown
-## 🛠 Built With
-
 - [Node.js `https`](https://nodejs.org/api/https.html) – native module for secure HTTP requests
 - [fast-xml-parser](https://www.npmjs.com/package/fast-xml-parser) – lightweight, performant XML parsing
 - [TypeScript](https://www.typescriptlang.org/) – strict typing and developer tooling
-```
 
 ---
 
