@@ -63,7 +63,7 @@ export interface VatCheckResult {
   requestDate: string;
 }
 
-export async function validateVatEU(countryCode: string, vatNumber: string, timeoutMs = 7000): Promise<VatCheckResult> {
+export async function validateVatEU(countryCode: string, vatNumber: string, timeoutMs = 10000): Promise<VatCheckResult> {
   countryCode = countryCode.toUpperCase();
   if (!EU_COUNTRIES.includes(countryCode) || !vatNumber) {
     throw new Error(ERROR_MSG.INVALID_INPUT);
@@ -123,7 +123,8 @@ export async function validateVatEU(countryCode: string, vatNumber: string, time
     });
 
     req.on("timeout", () => {
-      req.destroy(new Error("VIES request timed out"));
+      req.destroy();
+      reject(new Error("VIES request timed out"));
     });
 
     req.on("error", reject);

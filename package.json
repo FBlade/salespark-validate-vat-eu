@@ -1,6 +1,6 @@
 {
   "name": "@salespark/validate-vat-eu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Validate EU VAT numbers using the official VIES SOAP API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
