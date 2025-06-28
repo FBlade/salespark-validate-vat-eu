@@ -9,6 +9,10 @@
   "author": "SalesPark",
   "license": "MIT",
   "homepage": "https://salespark.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBlade/salespark-validate-vat-eu.git"
+  },
   "devDependencies": {
     "@types/node": "^24.0.6",
     "ts-node": "^10.9.2",
