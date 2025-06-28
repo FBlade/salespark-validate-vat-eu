@@ -1,12 +1,22 @@
 {
   "name": "@salespark/validate-vat-eu",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Validate EU VAT numbers using the official VIES SOAP API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test:local": "ts-node ./test/index.ts"
   },
-  "author": "SalesPark",
+  "keywords": [
+    "vat",
+    "vies",
+    "eu",
+    "validate",
+    "soap",
+    "salespark"
+  ],
+  "author": "FBlade <dev@salespark.io>",
   "license": "MIT",
   "homepage": "https://salespark.io",
   "repository": {
